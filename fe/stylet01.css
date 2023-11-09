@@ -1,0 +1,10 @@
+.slider { width: 100%; 
+    position: relative; } 
+.slider img { 
+    width: 100%; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    opacity: 0; 
+    transition: opacity 1s ease-in-out; } 
+.slider img.active { opacity: 1; }

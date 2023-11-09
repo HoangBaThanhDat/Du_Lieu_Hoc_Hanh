@@ -1,0 +1,38 @@
+.container{
+    display:flex;
+    background-color: bisque;
+}
+.Logo{
+    width: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.Menu{
+    flex-grow: 1;
+    background-color:white;
+}
+.Menu ul{
+   list-style: none;
+   display: flex;
+   justify-content: end;
+   align-items:center;
+   
+}
+.Menu ul li{
+    margin-right: 20px;
+    padding: 5px 5px 10px;
+    color: black;
+    cursor: pointer;
+    font-weight: bolder;
+    border-bottom: 5px solid black;
+} 
+button{
+    background-color: #407fe6;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color:white;
+}

@@ -1,0 +1,36 @@
+display: flex;
+background-color: deeppink;
+}
+.aa{
+margin-left: 180px;
+margin-top: 90px;
+}
+.uuu{
+width: 300px;
+border-radius: 20px;
+}
+.bb{
+color: aliceblue;
+margin-left: 150px;
+font-size: 30px;
+margin-top: 60px;
+}
+.ccc{
+margin-top: 400px;
+margin-left: -900px;
+font-size: 30px;
+color: aliceblue;
+}
+.vvv{
+margin-top: 700px;
+margin-left: -430px;
+font-size: 30px;
+color: aliceblue;
+}
+.anh2{
+width: 700px;
+height: 400px;
+margin-top: 500px;
+margin-left: 100px;
+}
+ 

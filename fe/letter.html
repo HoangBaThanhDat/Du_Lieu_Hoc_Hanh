@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài học về table</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1>Bài học về Table</h1>
+    <h3>Danh sách sinh viên nhóm 5</h3>
+    <table class="table table-info table-hover table-bordered">
+      <tr class="table-dark">
+        <th>STT</th>
+        <th>Mã sinh viên</th>
+        <th colspan="2">Họ và tên</th>
+        <th>Năm sinh</th>
+        <th>Nơi sinh</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>101</td>
+        <td>Chu Văn </td>
+        <td>Quỳnh</td>
+        <td>2000</td>
+        <td>Huế</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>102</td>
+        <td>Trần Thị </td>
+        <td>Tẹo</td>
+        <td>2000</td>
+        <td>Đà nẵng</td>
+      </tr>
+
+      <tr>
+        <td colspan="2" rowspan="2" class="text-center align-middle">Tổng cộng</td>
+        <td colspan="4">2 sinh viên</td>
+      </tr>
+
+      <tr>
+        <td colspan="4">1 sinh viên nữ, 1 sinh viên nam</td>
+      </tr>
+
+    </table>
+  </body>
+</html>

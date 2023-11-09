@@ -1,0 +1,32 @@
+div{
+    min-height: 100px;
+    min-width: 400px;
+    color:black;
+    font-size: 2em;
+    text-align: center;
+}
+div:nth-child(2n+1){
+    background-color: red;
+}
+div:nth-child(2n){
+    background-color: yellow;
+}
+.container{
+    background: #fff !important;
+     border: 1px solid black;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    align-items: center;
+}
+.container .item{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.container .item:nth-child(2){
+    background-color: bisque;
+    flex-grow: 1;
+}
